@@ -25,7 +25,7 @@ Please note that this dataset is **NOT** intended for clinical use.
     * [`dataset.py`](medmnist/dataset.py): PyTorch datasets and dataloaders of MedMNIST.
     * [`evaluator.py`](medmnist/evaluator.py): Standardized evaluation functions.
     * [`info.py`](medmnist/info.py): Dataset information `dict` for each subset of MedMNIST.
-* [`examples/`](examples/):
+* ['CT_OCT_experiments'](CT_OCT_experiments/):
     * [`getting_started.ipynb`](examples/getting_started.ipynb): To explore the MedMNIST dataset with jupyter notebook. It is ONLY intended for a quick exploration, i.e., it does not provide full training and evaluation functionalities. 
     * [`getting_started_without_PyTorch.ipynb`](examples/getting_started_without_PyTorch.ipynb): This notebook provides snippets about how to use MedMNIST data (the `.npz` files) without PyTorch.
 * [`setup.py`](setup.py): To install `medmnist` as a module.
