@@ -12,8 +12,10 @@ The following code is based on the original scripts present in (https://github.c
     * [`models.py`](CT_OCT_experiments/models.py): Code with models.
 * [`setup.py`](setup.py): To install `medmnist` as a module.
 
-# Installation and Requirements
+# Installation, Requirements and Dataset
 The following instruction are from the original repository (https://github.com/MedMNIST/MedMNIST) where you can find also the datasets and the command line tools.
+In our code we have chosen to modify the subdivision phase of the dataset to ensure a random and varied selection of samples.
+
 Setup the required environments and install `medmnist` as a standard Python package from [PyPI](https://pypi.org/project/medmnist/):
 
     pip install medmnist
@@ -33,14 +35,6 @@ The code requires only common Python environments for machine learning. Basicall
 * numpy\==1.18.5, pandas\==0.25.3, scikit-learn\==0.22.2, Pillow\==8.0.1, fire, scikit-image
 
 Higher (or lower) versions should also work (perhaps with minor modifications). 
-
-# Dataset
-
-Please download the dataset(s) via [`Zenodo`](https://doi.org/10.5281/zenodo.5208230). You could also use our code to download automatically by setting `download=True` in [`dataset.py`](medmnist/dataset.py).
-
-The MedMNIST dataset contains several subsets. Each subset (e.g., `pathmnist.npz`) is comprised of 6 keys: `train_images`, `train_labels`, `val_images`, `val_labels`, `test_images` and `test_labels`.
-* `train_images` / `val_images` / `test_images`: `N` × 28 × 28 for 2D gray-scale datasets, `N` × 28 × 28 × 3 for 2D RGB datasets, `N` × 28 × 28 × 28 for 3D datasets. `N` denotes the number of samples.  
-* `train_labels` / `val_labels` / `test_labels`: `N` x `L`. `N` denotes the number of samples. `L` denotes the number of task labels; for single-label (binary/multi-class) classification, `L=1`, and `{0,1,2,3,..,C}` denotes the category labels (`C=1` for binary); for multi-label classification `L!=1`, e.g., `L=14` for `chestmnist.npz`.
 
 # License and Citation
 
