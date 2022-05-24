@@ -1,5 +1,5 @@
 # ResNet18 application to MedMNIST datasets
-The following code is based on the original scripts present in (https://github.com/MedMNIST/MedMNIST), in particular this new code is designed to work only with PyTorch. The main differences from the original one are: the introduction of the Early Stopping technique and the implementation of other methods based on the learning rate annealing and the incremental Mini-Batch size. The complete dataset descripitions and references are reported in the previous link.
+The following code is based on the original scripts present in https://github.com/MedMNIST/MedMNIST, in particular this new code is designed to work only with PyTorch. The main differences from the original one are: the introduction of the Early Stopping technique and the implementation of other methods based on the learning rate annealing and the incremental Mini-Batch size. The complete dataset descripitions and references are reported in the previous link.
 
 # Code Structure
 * [`medmnist/`](medmnist/):
@@ -13,7 +13,7 @@ The following code is based on the original scripts present in (https://github.c
 * [`setup.py`](setup.py): To install `medmnist` as a module.
 
 # Installation, Requirements and Dataset
-The following instruction are from the original repository (https://github.com/MedMNIST/MedMNIST) where you can find also the datasets and the command line tools.
+The following instruction are from the original repository https://github.com/MedMNIST/MedMNIST where you can find also the datasets and the command line tools.
 In our code we have chosen to modify the subdivision phase of the dataset to ensure a random and varied selection of samples.
 
 Setup the required environments and install `medmnist` as a standard Python package from [PyPI](https://pypi.org/project/medmnist/):
@@ -35,6 +35,9 @@ The code requires only common Python environments for machine learning. Basicall
 * numpy\==1.18.5, pandas\==0.25.3, scikit-learn\==0.22.2, Pillow\==8.0.1, fire, scikit-image
 
 Higher (or lower) versions should also work (perhaps with minor modifications). 
+
+# Warning
+These datasets are NOT intended for clinical use.
 
 # License and Citation
 
