@@ -1,4 +1,5 @@
-# ResNet18 application to MedMNIST datasets
+# Biomedical image classification via dynamically early stopped
+artificial neural network
 The following code is based on the original scripts present in https://github.com/MedMNIST/MedMNIST, in particular this new code is designed to work only with PyTorch. The main differences from the original one are: the introduction of the Early Stopping technique and the implementation of other methods based on the learning rate annealing and the incremental Mini-Batch size. The complete dataset descripitions and references are reported in the previous link.
 
 # Code Structure
@@ -65,6 +66,13 @@ or using the bibtex:
         booktitle={IEEE 18th International Symposium on Biomedical Imaging (ISBI)},
         pages={191--195},
         year={2021}
+    }
+    
+    @article{biomed2022fra,
+        title={Biomedical image classification via dynamically early stopped artificial neural network},
+        author={Franchini, F. and Verucchi, M. and Catozzi, A. and Porta, F. and Prato, M.},
+        journal={Submitted to MDPI},
+        year={2022}
     }
 
 Please also cite source data paper(s) of the MedMNIST subset(s) as per the [description](https://medmnist.github.io/).
