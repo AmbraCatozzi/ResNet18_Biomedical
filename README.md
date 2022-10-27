@@ -66,8 +66,7 @@ or using the bibtex:
         pages={191--195},
         year={2021}
     }
-    
-   @article{franchini2022biomedical,
+    @article{franchini2022biomedical,
         title={Biomedical Image Classification via Dynamically Early Stopped Artificial Neural Network},
         author={Franchini, Giorgia and Verucchi, Micaela and Catozzi, Ambra and Porta, Federica and Prato, Marco},
         journal={Algorithms},
