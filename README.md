@@ -67,11 +67,15 @@ or using the bibtex:
         year={2021}
     }
     
-    @article{biomed2022fra,
-        title={Biomedical image classification via dynamically early stopped artificial neural network},
-        author={Franchini, F. and Verucchi, M. and Catozzi, A. and Porta, F. and Prato, M.},
-        journal={Submitted to MDPI},
-        year={2022}
-    }
+   @article{franchini2022biomedical,
+        title={Biomedical Image Classification via Dynamically Early Stopped Artificial Neural Network},
+        author={Franchini, Giorgia and Verucchi, Micaela and Catozzi, Ambra and Porta, Federica and Prato, Marco},
+        journal={Algorithms},
+        volume={15},
+        number={10},
+        pages={386},
+        year={2022},
+        publisher={MDPI}
+}
 
 Please also cite source data paper(s) of the MedMNIST subset(s) as per the [description](https://medmnist.github.io/).
